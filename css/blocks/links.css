@@ -1,0 +1,37 @@
+
+
+.link {
+    display: inline-flex;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-regular, Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #999999;
+}
+
+.links--primary {
+    color: #9C27B4;
+}
+
+.links--info {
+    color: #03A9F4;
+}
+
+.links--success {
+    color: #4CAF50;
+}
+
+.links--warning {
+    color: #FBC02D;
+}
+
+.links--danger {
+    color: #F44336;
+}

@@ -1,0 +1,45 @@
+.page {
+    background-color: gray;
+
+}
+
+.page__container {
+    max-width: 1167px;
+    margin: 0 auto;
+    /*padding-top: 35px;*/
+
+}
+
+.page__first-screen {
+    height: 100vh;
+    background: purple url("../../images/bg__header.jpg") no-repeat center/cover;
+
+}
+
+.page__content {
+    background-color:#FFFFFF ;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.14), 0 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: -57px 20px 0 ;
+    padding: 40px 0 122px;
+}
+
+.page__row {
+    margin-left: 202px;
+    align-items: center;
+    display: flex;
+}
+
+.page__input {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.page__box-input {
+    width: 25%;
+    padding-right: 33px;
+}

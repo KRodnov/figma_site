@@ -1,0 +1,97 @@
+
+.input {
+    display: flex;
+    position: relative;
+}
+
+
+
+.input__text {
+    font-family: Roboto-regular,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    border-bottom: #999999 1px solid;
+    width: 100%;
+    margin-right: 36px;
+
+}
+
+.input__text::placeholder {
+    color: #999999;
+}
+
+.input__text:hover {
+    outline: none;
+}
+.input__text:focus {
+    outline: none;
+}
+.input__text:active {
+    outline: none;
+}
+
+
+
+
+
+
+.text--success {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4CAF50;
+    position: absolute;
+    bottom: 30px;
+}
+
+.text--error {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F44336;
+    position: absolute;
+    bottom: 30px;
+}
+
+.input--success {
+    background: url("../../images/icons/valid-icon.png") no-repeat right center/contain;
+}
+
+.input--success::placeholder {
+    color: #555555;
+}
+
+
+.input--error {
+    background: url("../../images/icons/error-icon.png") no-repeat right center/contain ;
+}
+
+.input--error::placeholder {
+    color: #555555;
+}
+
+.material-icon {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.awesome-icon {
+    width: 15px;
+    height: 14px;
+
+
+
+}
+
+.input__label {
+    padding: 0 10px 0 15px;
+}

@@ -1,0 +1,38 @@
+.header {
+    padding-top: 26px;
+}
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    /*align-items: center;*/
+    /*flex-direction: row;*/
+}
+
+.header__menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__item {
+    display: flex;
+    align-items: center;
+    font-family:Roboto-regular, Arial sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.header__icon {
+    width: 20px;
+    height: 20px;
+
+}

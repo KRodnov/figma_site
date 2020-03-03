@@ -1,0 +1,97 @@
+
+.button {
+    display: inline-flex;
+    border-radius: 3px;
+    padding: 13px 30px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color: #9C27B4;
+    box-shadow: 0 2px 2px rgba(153, 153, 153, 0.2);
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-light,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.button--primary {
+    background-color:#9C27B4;
+    box-shadow: 0 2px 2px rgba(156, 39, 180, 0.2);
+}
+
+.button--success {
+    background-color: #4CAF50;
+    box-shadow: 0 2px 2px rgba(76, 175, 80, 0.2);
+}
+
+.button--round {
+    border-radius: 20px;
+}
+
+.button__img {
+
+    width: 17px;
+}
+
+.button--large {
+    padding: 18px 36px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+.button--only-icon {
+    padding: 12px;
+    border-radius: 50%;
+ }
+
+
+
+
+.button--x-small {
+    padding: 5px 15px 6px 14px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.button--small {
+    padding: 6px 20px 7px 19px;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+
+
+
+
+.button--default {
+    padding: 13px 34px 13px 30px;
+    background-color: #999999;
+}
+
+.button--info {
+    background-color: #03A9F4;
+}
+
+.button--warning {
+    background-color: #FBC02D;
+}
+
+.button--danger {
+    background-color: #F44336;
+}
+
+.button--simple {
+    color: #9C27B0;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+
